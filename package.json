@@ -12,7 +12,7 @@
     "test": "eslint src && jest --coverage",
     "precommit": "yarn test",
     "prepush": "yarn test && yarn prod:build",
-    "heroku-postbuild": "yarn prod:build",
+    "heroku-postbuild": "yarn prod:build"
   },
   "browserslist": [
     "> 1%"
@@ -72,5 +72,5 @@
   "engines": {
     "node": "7.x",
     "yarn": "0.20.3"
-  },
+  }
 }
